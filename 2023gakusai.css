@@ -1,7 +1,8 @@
+/*
 html {
     height: 2130px;
     width: 1000px;
-}
+}*/
 
 body {
     background-color: #5a5a5a;
@@ -10,7 +11,7 @@ body {
 h1{
     text-align: center;
     margin-top: 200px;
-    font-size: 100px;
+    font-size: 100%;
     color: rgb(43, 43, 224);
     text-shadow: 0 0 10px #fff,0 0 15px #fff;
 }
@@ -20,11 +21,11 @@ h1{
 } */
 
 .circle {
-    width: 1000px;
-    height: 1000px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 800px;
-    left: 10px;
+    top: 300px;
+    left: 150px;
     filter: drop-shadow(0px 5px 10px rgb(68, 243, 255)) drop-shadow(0px 5px 10px rgb(68, 243, 255)) drop-shadow(0px 5px 5px rgb(68, 243, 255)); 
     margin-bottom: auto;
     animation: spin 8s linear infinite;
