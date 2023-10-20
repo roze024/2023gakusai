@@ -36,7 +36,7 @@ h1{
     left: 10%;
     filter: drop-shadow(0px 5px 10px rgb(68, 243, 255)); 
     transform: rotateZ(-90deg);
-    animation: flash 1s linear infinite;
+    animation: flash 1.2s linear infinite;
 }
 
 .item2 {
